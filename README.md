@@ -1,6 +1,6 @@
 # Minecraft-Setup
 
-> Setup scripts for Minecraft Server Setup
+> Setup Scripts for Minecraft Server as Windows Service
 
 This repository contains a script to set up Minecraft Server on Microsoft Windows as service. It has been tested with
 Windows 8 but should also work for other Windows versions.
@@ -95,7 +95,7 @@ This description is targeted to the beginner to intermediate Windows user. If yo
 sufficient feel free to drop me a note.
 
 During the installation process you might be asked to provide administrative permissions. As alternative run applications
-like command line or explorer as administrator.
+like command line prompt or explorer as administrator.
 
 ### Preparation
 
@@ -146,7 +146,27 @@ to your intranet.
     * `JAVA_HOME=C:\Program Files\Java\jre1.8.0_40`
 
         Where to find the bin\java.exe matching your operating system
-        .
+
 ### Installation
 
-*TBC*
+1. Open the Command Line Prompt as Administrator \[[1][ref1]\]
+2. Change to the folder where you placed the Minecraft set up batch file.
+3. Follow the steps described [at the beginning][help].
+4. **`> ipconfig`**
+
+    `ipconfig` will tell you your IP address. Search for an entry like
+    
+    ```
+    IPv4-Address  . . . . . . . . . . : 192.168.1.25
+    ```
+    
+    This is the address how to reach your server from other computers in
+    your intranet. It is recommended to set a fixed IP in your router.
+5. Connect to your server by starting Multiplayer Mode and entering the IP determined above.
+6. Have fun!
+
+## References
+
+[ref1]:<#ref1>
+[ref1-link]: <http://www.7tutorials.com/how-run-programs-administrator-windows-7>
+1. <a name="ref1"/> [5 Ways to Run Programs as Administrator in Windows 7 & Windows][ref1-link]
