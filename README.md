@@ -9,10 +9,11 @@ The script has been tested for intranet set up, thus to provide a server which c
 For guides to make your server available in the internet please consult other documentation which for example describes
 how to make your changing IP available in the internet.
 
-The following [Help Section][#help] starts with an description for the advanced user already knowing basics about servers,
-Java set up etc. For a more detailed description follow [Step-by-Step][#stepbystep] below which hopefully describes all steps
+The following [Help Section][help] starts with an description for the advanced user already knowing basics about servers,
+Java set up etc. For a more detailed description follow [Step-by-Step][stepbystep] below which hopefully describes all steps
 so anyone could install the Minecraft Server
 
+[help]: <#help>
 <a name="help"/>
 # Help
 
@@ -86,6 +87,7 @@ Recommended order of steps (run as admin or with UAC turned off):
 * Java Download: https://java.com/download/
 * Minecraft Download: https://minecraft.net/download
 
+[stepbystep]: <#stepbystep>
 <a name="stepbystep"/>
 ## Step by Step
 
